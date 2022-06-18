@@ -20,6 +20,7 @@ import re # regular expressions
 import datetime # format date/time
 import nltk
 import nltk_download_utils
+import nltk_stopwords
 import reparserinstall
 import spacy
 nlp = spacy.load('en_core_web_sm') # instead of spacy.load('en')
