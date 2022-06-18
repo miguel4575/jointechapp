@@ -21,6 +21,10 @@ import datetime # format date/time
 import nltk
 import nltk_download_utils
 import reparserinstall
+import spacy
+nlp = spacy.load('en_core_web_sm') # instead of spacy.load('en')
+nltk.download('stopwords')
+import nltk
 nltk.download('stopwords')
 
 def get_table_download_link(df,filename,text):
