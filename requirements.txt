@@ -8,5 +8,3 @@ pyresparser==1.0.6
 requests==2.26.0
 streamlit==1.10.0
 streamlit_tags==1.2.8
-spacy>=2.2.0,<3.0.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
