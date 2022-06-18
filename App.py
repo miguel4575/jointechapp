@@ -19,7 +19,11 @@ import pandas as pd # DF
 import re # regular expressions
 import datetime # format date/time
 import nltk
+import nltk_downloader
 from nltk.corpus import stopwords
+import nltk
+nltk.download('wordnet')
+nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 def get_table_download_link(df,filename,text):
     """Generates a link allowing the data in a given panda dataframe to be downloaded
