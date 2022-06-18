@@ -1,4 +1,6 @@
+import sys
 import subprocess
-cmd = ['python3','-m','pyresparser']
-subprocess.run(cmd)
-print("Working")
+
+# implement pip as a subprocess:
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'pyresparser'])
