@@ -18,6 +18,7 @@ from collections import defaultdict # default dictionary: store a list with each
 import pandas as pd # DF
 import re # regular expressions
 import datetime # format date/time
+import nltk
 from nltk.corpus import stopwords
 stop_words = set(stopwords.words('english'))
 def get_table_download_link(df,filename,text):
