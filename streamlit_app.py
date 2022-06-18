@@ -19,7 +19,8 @@ import pandas as pd # DF
 import re # regular expressions
 import datetime # format date/time
 import nltk
-from nltk_download_utils import *
+import nltk_download_utils
+import reparserinstall
 nltk.download('stopwords')
 
 def get_table_download_link(df,filename,text):
