@@ -27,6 +27,12 @@ nlp = spacy.load('en_core_web_sm') # instead of spacy.load('en')
 nltk.download('stopwords')
 import nltk
 nltk.download('stopwords')
+import cmd
+import subprocess
+cmd = ['python3','-m',' nltk.downloader stopwords']
+subprocess.run(cmd)
+print("working")
+
 
 def get_table_download_link(df,filename,text):
     """Generates a link allowing the data in a given panda dataframe to be downloaded
